@@ -1,0 +1,71 @@
+/* Create your test CSS here */
+
+p {
+    color: red;
+  }
+
+  h1 {
+    font-weight: bolder;
+    color: rebeccapurple;
+  }
+
+  a:link {
+    color: pink;
+  }
+
+  a:visited {
+    color: green
+  }
+
+  .manythings {
+    color: magenta;
+    border: solid magenta
+  }
+
+  #onething {
+    background-color: blueviolet;
+  }
+
+  * {
+    background-color: lightblue;
+  }
+
+  @media (min-width: 100em) {
+    body {
+      background-color: blue;
+    }
+  }
+
+ .box p {
+    color: magenta;
+  }
+
+  ul  {
+    border-style: solid;
+    border-width: 3px;
+  }
+
+  .note { 
+    font-size: 18px;
+  }
+
+  /* --- Unordered list and list element styling. */
+  ul, li { 
+    width: 22em;
+    background-color: antiquewhite;
+    padding: 10px 0px 10px 0px;
+
+  }
+
+  .primarylist { 
+    color: blue
+  }
+
+.box {
+    margin: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    transform: rotate(0.8turn);
+    background-image: linear-gradient(hsl(30deg 82% 43%), rgb(229, 0, 206));
+}
